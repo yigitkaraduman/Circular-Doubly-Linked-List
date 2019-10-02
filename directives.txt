@@ -1,0 +1,12 @@
+load WordFile.txt
+print-range 2 5
+print-max 2
+print-freq Sacramento
+truncate-list 1
+load WordFile2.txt
+print-freq HouSton
+print-min 2
+print-nth 2
+load WordFile3.txt
+print-range 50 100
+truncate-list 10
