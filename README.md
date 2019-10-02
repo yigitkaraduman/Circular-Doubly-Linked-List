@@ -18,32 +18,33 @@ that only the directives given below will appear in the file, and the specified 
 always appear. The output of the directives will be written to standard output.
 
 Directives: Here are the possible directives and their meanings.
- load filename
+
+*load filename
 Parse the words in the file named filename and construct the frequency linked list.
 
- print-max N
+*print-max N
 Print the N highest frequency words and their frequencies in the list, one word per line and
 sorted highest to lowest. If N is larger than the number of words in the list, print the entire
 list.
 
- print-min N
+*print-min N
 Print the N lowest frequency words and their frequencies in the list, one word per line and
 sorted lowest to highest. If N is larger than the number of words in the list, print the entire
 list.
 
- print-range N1 N2
+*print-range N1 N2
 Print the words whose frequency is within the range [N1, N2]. Print each word and its
 frequency, one word per line and sorted highest to lowest. If no words are in that range, print
 'This range is empty'.
 
- print-freq word
+*print-freq word
 Print the frequency of the given word.
 
- print-nth N
+*print-nth N
 Print the word whose frequency is the N-th highest in the list. For example if N=1 you print
 the word with the highest frequency, if N=2 you print the second highest, etc.
 
- truncate-list N
+*truncate-list N
 Remove the N lowest frequency words from the list. If N is larger than the number of words
 in the list, clear the entire list.
 
