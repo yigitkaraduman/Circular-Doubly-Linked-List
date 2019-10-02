@@ -56,5 +56,4 @@ Remove the N lowest frequency words from the list. If N is larger than the numbe
 in the list, clear the entire list.
 
 # How to run:
-The program will be invoked from the command line as: java word-frequency
-<directives-file>
+The program will be invoked from the command line as: java word-frequency <directives-file>
